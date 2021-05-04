@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $text-light;
+  background-color: #f8f9ff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main-wrapper {
+  position: relative;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0px 60px;
+  margin: 0 auto;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  color: $text-light;
+  border: 1px solid $text-light;
+}
+
+.btn-color {
+  background-color: $accent-color;
+  color: #fff;
+}
+
+.section-title {
+  font-weight: 700;
+  color: $text-dark;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 30px;
+}

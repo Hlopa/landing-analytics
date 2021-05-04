@@ -1,0 +1,39 @@
+.projects__inner{
+  padding-bottom: 114px;
+}
+
+.projects__item {
+  & + .projects__item {
+    margin-top: 100px;
+  }
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+}
+
+.projects__col-text{
+  flex-basis: 41%;
+}
+
+.projects__col-img{
+flex-basis: 50%;
+}
+
+.projects__col-img--right{
+  .projects__col-img-img{
+    position: relative;
+    left: 53px;
+    top: 35px;
+  }
+}
+
+.projects__col-img--left{
+  .projects__col-img-img{
+    position: relative;
+    right: 53px;
+    top: 35px;
+  }
+}
+
+

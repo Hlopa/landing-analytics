@@ -1,0 +1,48 @@
+.header{
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px 40px;
+}
+
+.header__col-info{
+  display: flex;
+  align-items: center;
+}
+
+.header__col-user{
+  margin-left: 30px;
+}
+
+.header__logo{
+  margin-right: 64px;
+}
+
+.menu__list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu__item{
+  margin: 0px 18px;
+}
+
+.user-nav__btn{
+  padding: 10px 53px;
+}
+
+.btn--inactive{
+  background-color: transparent;
+  color: $text-light;
+  padding: 10px 20px;
+}
+
+
